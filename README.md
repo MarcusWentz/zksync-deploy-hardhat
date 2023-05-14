@@ -22,4 +22,10 @@ yarn hardhat verify <CONTRACT_ADDRESS>
 
 ## Deployed and verified contract 
 
+Greeter.sol:
+
 https://goerli.explorer.zksync.io/address/0x738A9C553912e1f2204cEf5b749327Ec55CE8f36#contract
+
+bulkerSender.sol:
+
+https://goerli.explorer.zksync.io/address/0x974489D9ae3a5EEC1c3bbaa1D9626A0bb8C40756#contract

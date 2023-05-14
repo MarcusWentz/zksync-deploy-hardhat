@@ -1,0 +1,95 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/marcuswentz/github/zksync-deploy-hardhat/contracts/Greeter.sol": {
+      "lastModificationDate": 1684093623827,
+      "contentHash": "93b2235600f7104b01489e7c217fce8f",
+      "sourceName": "contracts/Greeter.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.3.10",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3"
+            },
+            "compilerPath": "",
+            "experimental": {}
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "Greeter"
+      ]
+    },
+    "/home/marcuswentz/github/zksync-deploy-hardhat/contracts/bulkSender.sol": {
+      "lastModificationDate": 1684094348488,
+      "contentHash": "e9db05b7001cffe38805b4c82fe876eb",
+      "sourceName": "contracts/bulkSender.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "mode": "3"
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        },
+        "zksolc": {
+          "version": "1.3.10",
+          "compilerSource": "binary",
+          "settings": {
+            "optimizer": {
+              "enabled": true,
+              "mode": "3"
+            },
+            "compilerPath": "",
+            "experimental": {}
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "bulkSender"
+      ]
+    }
+  }
+}
