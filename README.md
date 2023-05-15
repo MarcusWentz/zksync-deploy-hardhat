@@ -30,7 +30,7 @@ npx hardhat verify <CONTRACT_ADDRESS>
 
 Greeter.sol:
 
-https://goerli.explorer.zksync.io/address/0x738A9C553912e1f2204cEf5b749327Ec55CE8f36#contract
+https://goerli.explorer.zksync.io/address/0x7755EF17bea2793429cfa1b8AAF535a839612112#contract
 
 bulkerSender.sol:
 
@@ -38,7 +38,7 @@ https://goerli.explorer.zksync.io/address/0x974489D9ae3a5EEC1c3bbaa1D9626A0bb8C4
 
 SimpleStorage.sol
 
-https://goerli.explorer.zksync.io/address/0x4aeC7b1BE3cFcdD39a29e510c439BF2294833FBA#contract
+https://goerli.explorer.zksync.io/address/0x1bb6aF5061f4Bf6ad40B48d85C5E6AaD30de1F24#contract
 
 ## Read Write Subscribe To Smart Contract 
 
