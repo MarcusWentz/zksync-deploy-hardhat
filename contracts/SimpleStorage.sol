@@ -2,7 +2,7 @@
 pragma solidity 0.8.17;
 
 contract SimpleStorage {
-    uint public storedData; //Do not set 0 manually it wastes gas!
+    uint256 public storedData; //Do not set 0 manually it wastes gas!
 
     event setEvent();
 
