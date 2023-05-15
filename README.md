@@ -39,3 +39,11 @@ https://goerli.explorer.zksync.io/address/0x974489D9ae3a5EEC1c3bbaa1D9626A0bb8C4
 SimpleStorage.sol
 
 https://goerli.explorer.zksync.io/address/0x4aeC7b1BE3cFcdD39a29e510c439BF2294833FBA#contract
+
+## Read Write Subscribe To Smart Contract 
+
+:warning: Websocket RPC endpoints are needed to subscribe to smart contract events. :warning:
+
+```shell
+node scripts/SimpleStorage/readWriteSubscribe.js
+```
