@@ -5,7 +5,7 @@ contract Greeter {
     
     string public greeting;
 
-    function setGreeting(string memory _greeting) public { //calldata is immutable cheaper than memory. 
+    function setGreeting(string calldata _greeting) public { //calldata is immutable cheaper than memory. 
         greeting = _greeting;
     }
     
