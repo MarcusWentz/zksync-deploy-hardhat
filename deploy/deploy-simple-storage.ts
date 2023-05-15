@@ -3,12 +3,15 @@ import { HardhatRuntimeEnvironment } from "hardhat/types";
 import { Wallet } from "zksync-web3";
 import { Deployer } from "@matterlabs/hardhat-zksync-deploy";
 
-const PRIVATE_KEY = process.env.PRIVATE_KEY
+const privateKey = process.env.PRIVATE_KEY || ""
+if (!privateKey){
+  throw "⛔️ Private key not detected as environmental variable!";
+}
 
 export default async function (hre: HardhatRuntimeEnvironment) {
   console.log(`Running deploy script for the SimpleStorage contract`);
 
-  const wallet = new Wallet(PRIVATE_KEY);
+  const wallet = new Wallet(privateKey);
 
   const deployer = new Deployer(hre, wallet);
   const artifact = await deployer.loadArtifact("SimpleStorage");
